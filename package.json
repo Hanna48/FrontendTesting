@@ -4,15 +4,20 @@
   "description": "mocha_testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-core/register"
+    "test": "mocha --require @babel/register"
   },
   "author": "HannaChung",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^6.2.2",
+    "chai": "*",
+    "mocha": "*",
     "save-dev": "0.0.1-security"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1"
   }
