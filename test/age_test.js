@@ -1,4 +1,5 @@
 import GetAge from '../age';
+//const GetAge = require('../age');
 
 describe('Testing in GetAge function', ()=> {
     it('Test case : Hanna\'s year of birth is 1997, now her age is 23.', ()=> {
